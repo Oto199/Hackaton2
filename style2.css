@@ -7,7 +7,7 @@
 
 :root{
     --body-color: #efefef;
-    --nav-color: #1876f2;
+    --nav-color: #049225;
     --bg-color: #fff;
 }
 .dark-theme{
@@ -26,15 +26,15 @@ nav {
     display:flex;
     align-items: center;
     justify-content:space-between;
-    background: var(--nav-color);
-    padding: 5px 5%;
+    background: var(--bg-color);
     position:sticky;
     top:0;
     z-index:100;
+    height: 90px;
 }
 .logo{
-    width:160px;
-    margin-right:45px;
+    width:230px;
+   
 }
 .nav-left, .nav-right{
     display:flex;
@@ -49,9 +49,10 @@ nav {
     margin:0 15px;
 }
 .nav-user-icon img{
-width:40px;
+width:50px;
 border-radius:50%;
 cursor:pointer;
+
 }
 .nav-user-icon{
     margin-left:30px;
@@ -218,7 +219,7 @@ margin-right:15px;
     bottom:5px;
 }
 .story-gallery{
-    display:flex;
+    display:none;
     justify-content: space-between;
     margin-bottom: 20px;
 }
@@ -642,13 +643,14 @@ border-radius: 4px;
     }
     nav{
         flex-wrap:wrap;
+        height: 90px;
     }
     .search-box {
         display:none;
     }
     .logo{
         width:110px;
-        margin-right:20px;
+       
     }
     .nav-left ul li img{
         width:20px;
@@ -686,6 +688,9 @@ border-radius: 4px;
     }
     .post-input-container{
         padding-left: 0px;
+    }
+    .nav-user-icon.online{
+        margin: right 20px, imp !important;;
     }
     
 }
