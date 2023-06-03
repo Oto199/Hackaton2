@@ -241,6 +241,65 @@ margin-right:15px;
     border:5px solid #187672;
   
 }
+.sidebar-list{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:5px;
+    font-size: 11px;
+}
+.num1
+{
+    color: rgb(187, 187, 51);
+    font-size: 15px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:5px;
+}
+.num2
+{
+    color: rgb(174, 174, 161);
+    font-size: 14px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:5px;
+}
+.num3
+{
+    color: rgb(121, 86, 37);
+    font-size: 13px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:5px;
+}
+.you
+{
+    color: rgb(45, 204, 109);
+    font-size: 11px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:5px;
+}
+.list-place
+{
+    margin-right: 10px;
+}
+.list-placee
+{
+    margin-right: 3px;
+}
+.line
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(165, 141, 32);
+}
 .story p{
     position:absolute;
     bottom:10px;
@@ -273,6 +332,7 @@ margin-right:15px;
        width:35px;
    }
    .write-post-container{
+       height: 80px;
        width:100%;
        background:var(--bg-color);
        border-radius: 6px;
