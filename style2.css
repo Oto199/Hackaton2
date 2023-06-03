@@ -80,6 +80,10 @@ nav {
     display:flex;
     align-items:center;
 }
+.nav-right
+{
+    margin-right: 90px;
+}
 .nav-left ul li{
     list-style-type: none;
     display:inline-block;
@@ -99,7 +103,7 @@ cursor:pointer;
 }
 .search-box{
 background:#efefef;
-width:350px;
+width:230px;
 border-radius:20px;
 display:flex;
 align-items:center;
@@ -115,6 +119,21 @@ padding: 0 15px;
     outline:none;
     border:0;
 }
+.h444
+{
+    color: rgb(91, 168, 91);
+    margin-right: 20px;
+    border: 2px rgb(91, 168, 91) dashed;
+    border-radius: 5px;
+    padding: 4px;
+}
+.coin
+{
+    width: 40px;
+    height: auto;
+    margin-right: 15px;
+}
+
 .online{
     position:relative;
 }
@@ -462,9 +481,22 @@ margin-right:15px;
        text-decoration: none;
    }
    .post-img{
-       width:100%;
-       border-radius:4px;
+       width:200px;
+       height: auto;
+       border-radius:8px;
+       box-shadow: grey 3px 3px 1px;
        margin-bottom:5px;
+       margin-bottom: 20px;
+   }
+   .img-mar
+   {
+        margin-left: 30px;
+   }
+   .arrow-img
+   {
+       width: 50px;
+       height: auto;
+       margin-inline: 20px;
    }
    .post-row{
        display:flex;
