@@ -10,6 +10,8 @@ post-input-container{
 }
 .post-input-container textarea{
     width:100%;
+    font-size: 14px!important;
+
     border:0;
     outline:0;
     border-bottom: 1px solid #ccc;
@@ -401,7 +403,7 @@ margin-right:15px;
        width:35px;
    }
    .write-post-container{
-       height: 80px;
+       height: 70px;
        box-shadow: 3px 3px 5px rgb(147, 147, 147);
 
        width:100%;
@@ -420,7 +422,7 @@ margin-right:15px;
        margin-right:10px;
    }
    .user-profile p{
-       margin-bottom:-5px;
+       font-size: 15px!important;
        font-weight:500;
        color:#626262;
    }
@@ -878,8 +880,8 @@ border-radius: 4px;
     z-index: 9;
     top: 110px;
     display: none;
-    
 }
+
 
 .post-content
 {
