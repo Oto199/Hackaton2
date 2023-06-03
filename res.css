@@ -1,0 +1,77 @@
+@media (max-width: 900px){
+
+
+.logo{
+    width: 55px;
+    height: auto;
+    margin-left: 20px;
+}
+.hed{
+    font-size: 15px;
+    margin-left: -18px;
+}
+.coin{
+    width: 30px;
+    height: auto;
+ margin-left: 115px;
+}
+.h444{
+    margin-left: -15px;
+    font-size: 13px;
+    border: none;
+}
+.search-box {
+display: none;
+}
+
+
+.nav-user-icon  img{
+    width: 40px;
+    margin-left: -40px;
+}
+.post-input-container{
+  margin-left: -30px;
+}
+ .user-profile img{
+    width: 30px;
+    margin-top: -10px;
+} 
+.write-post-container{
+    height: 60px;
+    width: 350px;
+} 
+.post-button{
+    margin-left: 0px;
+    margin-top: -10px;
+}
+.post-input-container{
+    margin-left: -40px;
+    width: 150px;
+}
+.user-profile p{
+    margin-top: -10px;
+}
+
+.yoo{
+    margin-top: 70px;
+}
+.post-content{
+    margin-top: 10px;
+}
+.post-container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-right{
+    display: flex;
+    flex-direction: column;
+}
+.arrow-img{
+    display:none;
+}
+.post-img{
+    margin: 0px;
+    margin-top: 10px;
+}
+}
